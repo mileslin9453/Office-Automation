@@ -4,15 +4,15 @@ import os
 import ftplib
 
 window = tk.Tk()
-window.title("//~~信查理得永生~~//")
+window.title("//~~RT Location FTP~~//")
 window.geometry('300x200') # Size 200, 200
 window.attributes('-topmost', True) # bring window in front of other windwos
 
 def hello():
     try:
         ftp = ftplib.FTP()
-        ftp.connect('192.168.100.206',21)
-        ftp.login(user='pe',passwd='gigape')
+        ftp.connect('192.168.0.1',21)
+        ftp.login(user='pe',passwd='123456')
         ftp.cwd('/home/rt_location')
         os.chdir(fp[0])
         f = open(fp[1],'rb')
