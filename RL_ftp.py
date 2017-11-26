@@ -1,3 +1,10 @@
+# Create Date:11/20/2017
+# Author:Miles Lin
+# Project Name:RT loction FTP
+# Description:A easy way to upload files to FTP server
+# Revision:1.0
+# Additional Comments: 
+
 import tkinter as tk
 from tkinter import messagebox,filedialog
 import os
